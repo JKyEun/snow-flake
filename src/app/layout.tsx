@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ background: 'black' }}>
         <GNB />
         {children}
       </body>
